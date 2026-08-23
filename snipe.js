@@ -852,21 +852,21 @@ async function showMainMenu(ctx, edit = false) {
     : '⚠️ No wallet connected';
   
   const message = `
-🚀 *Hey Welcome to Axiom Trading Bot🤖
+👋 Welcome to Trojan Bot
 
+Your Ultimate Onchain Trading Experience ⚡
 
-I’m the one-stop solution for all your trading needs!
-
-🔗 Chains: Enable/disable chains.
-💳 Wallets: Import or generate wallets.
-⚙️ Global Settings: Customize the bot for a unique experience.
-🕓 Active Orders: Active buy and sell limit orders.
-📈 Positions: Monitor your active trades.
-
-⚡ Looking for a quick buy or sell? Simply paste the token CA and you're ready to go!🏃 
+🚨 Real-time pump detection
+💳 Instant wallet alerts
+🎯 Auto TP/SL management
+🤖 Smart trade execution
+💎 Trade with low fees — Use referral link
+⚡ Looking for a quick buy or sell? 
 ━━━━━━━━━━━━━━━━━━
 ${walletInfo}
-  
+
+Simply paste the token CA and you're ready to go!🏃
+
   const keyboard = Markup.inlineKeyboard([
     [
       Markup.button.callback('💼 Wallet', 'menu_wallet'),
